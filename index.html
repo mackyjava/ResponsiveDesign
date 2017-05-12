@@ -1,52 +1,61 @@
 <!DOCTYPE html>
+
 <html>
 <head>
      <link rel="stylesheet" type="text/css" href="assets/css/main.css">
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>Responsive design</title>
 </head>
 <body>
    <header>
    		<nav>
    			<ul>
-   				<li>Apps</li>
-   				<li>Games</li>
-   				<li>Movies</li>
-   				<li>Books</li>
-   				<li>News Paper</li>
+   				<li class="ocultar">Apps</li>
+   				<li class="ocultar">Games</li>
+   				<li class="ocultar">Movies</li>
+   				<li class="ocultar">Books</li>
+   				<li class="ocultar">News Paper</li>
+   				<li class="hidden mostrar"><i class="material-icons">&#xe8fe;</i></li>
    			</ul>
    		</nav>
    	
    </header>
    <section class="container" id="home">
-   	    <h1>Doramas</h1>
+   	    <h1 >Doramas</h1>
    </section>
-   <section class="segunda">
-   		<article>
-   			<img src="">
-   			<p></p>
-   		</article>
-   		<article>
-   			<p></p>
-   			<img src="">
-   		</article>
+   <section class="segunda ocultar">
+        <h3 class="tituloSeg ocultar">Dramas coreanos</h3><br><br><br>
+   		<section class="containerImg">
+   			<img src="assets/img/imagenPrimer.jpg " class="primeraIm">
+   			<p class="imagenPie">Drama coreano (hangul: 한국드라마, romanización revisada: Hanguk deurama, McCune-Reischauer: Han'guktŭrama)? —también conocidas como K-Drama— se refieren a las series de televisión dramáticas provenientes de Corea del Sur en su idioma local, emitiéndose en ese país desde la década de 1960 y popularizándose a mediados de la década de 1990 y principios del 2000 a nivel global,2 con un formato que se diferencia de las series de televisión y telenovelas occidentales. 3 Las extensiones varían de acuerdo a la audiencia y horario en diversos géneros, que habitualmente varían entre los 16, 20 y 50 episodios, frecuentemente, sin secuelas. 
+
+			Muchas de estas producciones han llegado a ser considerablemente atractivas a nivel mundial y han contribuido a la expansión de la llamada ola coreana, debido a que frecuentemente poseen millonarios presupuestos además de ser protagonizadas por actores coreanos y cantantes de K-pop con fama mundial, en una industria de entretenimiento consolidada. Si bien, su principal vía de difusión es por medio de la televisión tanto en su país de origen como en otros lugares, con el paso de los años han obtenido notoriedad a través de videoclubs físicos o en línea a través de streaming. </p>
+   		</section>
+   		<section class="containerImg">
+   			<p class="imagenPie bajar">La primera serie de televisión fue transmitido por Korean Broadcasting System en 1962. El primer drama que salió al aire fue la histórica Gukto Manri (국토 만리; 國土萬里), dirigida por Kim Jae Hyung, representando la era Goryeo. En la década de 1960, los televisores eran de disponibilidad limitada, por lo tanto los dramas no podían llegar a un público más amplio.<br>
+             <br>
+			En la década de 1970, los aparatos de televisión comenzaron a extenderse entre la población en general, y los dramas pasaron de representar figuras históricas, a la introducción de héroes nacionales como Lee Sun Shin o Sejong el Grande. Los dramas contemporáneos trataban sufrimientos personales, tales como la del guionista Kim Soo Hyun, La madrastra (새엄마), transmitido por Munhwa Broadcasting Corporation (MBC) entre 1972 y 1973. A medida que la tecnología y la financiación era limitada, los canales surcoreanos no tenían recursos para hacer series en géneros como acción y de ciencia ficción, por lo tanto programas de ese tipo provenían desde Estados Unidos y otros países, en su lugar</p>
+   			<img src="assets/img/imgCuerpo.jpg" class="segundaIm">
+   		</section>
    </section>
    <section class="video">
-   		<h3></h3>
-   		<video></video>
-   	
+   		<h3>Una probadita</h3>
+   		<div class="videoContainer"><iframe  src="https://www.youtube.com/embed/8wSqPbMwVeo?ecver=1" frameborder="0" allowfullscreen></iframe></div>
    </section>
-   <section>
-   		<form>
-   			<input type="" name="">
-   			<input type="" name="">
-   			<input type="" name="">
-   			<input type="" name="">
+   <section formContainer>
+        <h3>Dejanos un comentario</h3>
+   		<form class="formC">
+   			<input type="text" name="" placeholder="Email Address">
+   			<input type="text" name="" placeholder="Name">
+   			<textarea name="" placeholder="Comment"></textarea>
+   			 <input type="button" name="" class="button" value="submit">
+  
    		</form>
    </section>
    <footer>
-   		<p></p>
+   		<p>Powered by</p>
    </footer>
 
 </body>

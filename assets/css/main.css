@@ -1,15 +1,13 @@
-*{
-	width: 100%;
-	padding: 0;
-	margin:0;
-}
+
+@media (min-width: 700px){
 nav{
 	width:100%;
-	height: 120px;
+	height: 100px;
 	display: flex;
-	background-color: gray;
+	background-color: #e0d2d2;
 }
 ul{
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -18,10 +16,276 @@ ul{
 }
 li{
 	width: 15%;
-	height: 25px;
+	height: 20px;
 	list-style: none;
 	padding:10px 10px;
 	border:2px solid black;
 	background-color:white;
 	color:black;
+}
+#home {
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/portada.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+ h1{
+ 	width: 100%;
+ 	display: flex;
+	justify-content:  center;
+	font-weight: 600;
+	font-size: 85px;
+	color: magenta;
+}
+.segunda{
+	width: 100%;
+	height: 1500px;
+}
+h3{
+	font-weight: 600;
+	font-size: 65px;
+    margin-left: 35%;
+	margin-top: 20px;
+	color:blue;
+	
+	
+}
+.containerImg {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 60px;
+	
+}
+img {
+	width: 45%;
+	height: 300px;
+	
+}
+.imagenPie{
+	width:45%;
+    
+}
+.video {
+	width:100%;
+	height: 600px;
+	background-color: #e0d2d2;	
+}
+
+.videoContainer{
+	width: 75%;
+	height: 400px;
+	display: flex;
+	background-color:pink;
+	margin-top: 75px;
+	margin-left: 12.5%;
+}
+iframe{
+	width: 100%;
+	height: 400px;
+}
+.formContainer{
+	width:100%;
+	height: 800px;
+}
+.formC {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 32.5%;
+	margin-top: 65px;
+}
+input {
+	margin-top: 45px;
+	height: 35px;
+	font-size: 25px;
+}
+textarea {
+	display: flex;
+	justify-content: center;
+	margin-top: 45px;
+	height: 200px;
+	font-size: 25px;
+}
+.button{
+	width: 29%;
+	height: 60px;
+	background-color: coral;
+	font-weight: 400;
+	font-size: 25px;
+	border:2px solid black;
+	border-radius: 25%;
+	margin-left: 70%;
+	margin-top: 10px;
+}
+footer{
+	width: 100%;
+	height: 85px;
+	display: flex;
+	justify-content: center;
+	background-color: #e0d2d2;
+	font-size: 22px;
+	align-items: flex-end;
+}
+.hidden{
+	display: none; 
+}
+   }
+@media (max-width: 699px){
+	nav{
+	width:100%;
+	height: 50px;
+	display: flex;
+	background-color: #e0d2d2;
+}
+ul{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
+li{
+	width: 15%;
+	height: 20px;
+	list-style: none;
+	padding:10px 10px;
+	border:2px solid black;
+	background-color:white;
+	color:black;
+}
+#home {
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/portada.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	align-items: center;
+
+
+}
+ h1{
+ 	width: 100%;
+ 	display: flex;
+	justify-content:  center;
+	font-weight: 600;
+	font-size: 45px;
+	color: magenta;
+	margin-top: -200px;
+}
+.segunda{
+	width: 100%;
+	height: 800px;
+}
+h3{
+	font-weight: 600;
+	font-size: 35px;
+    margin-left: 30%;
+	margin-top: 20px;
+	color:blue;
+	
+	
+}
+.containerImg {
+	width: 100%;
+	display: none;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 100px;
+	
+}
+img {
+	display: none;
+	width: 45%;
+	height: 200px;
+
+	
+}
+.imagenPie{
+	display: none;
+	width:45%;
+    
+}
+.video {
+	width:100%;
+	height: 600px;
+	background-color: white;
+	margin-top: -200px;
+	
+}
+
+.videoContainer{
+	width: 75%;
+	height: 300px;
+	display: flex;
+	background-color:pink;
+	margin-top: 75px;
+	margin-left: 12.5%;
+}
+iframe{
+	width: 100%;
+	height: 300px;
+}
+.formContainer{
+	width:100%;
+	height: 800px;
+}
+.formC {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 32.5%;
+	margin-top: 65px;
+}
+input {
+	margin-top: 45px;
+	height: 35px;
+	font-size: 25px;
+}
+textarea {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	height: 100px;
+	font-size: 25px;
+}
+.button{
+	width: 40%;
+	height: 30px;
+	background-color: coral;
+	font-weight: 400;
+	font-size: 15px;
+	border:2px solid black;
+	border-radius: 15%;
+	margin-left: 70%;
+	margin-top: 10px;
+}
+footer{
+	width: 100%;
+	height: 85px;
+	display: flex;
+	justify-content: center;
+	background-color: #e0d2d2;
+	font-size: 22px;
+	align-items: flex-end;
+}
+.ocultar{
+	display: none;
+}
+.mostrar{
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 65%;
+	box-sizing: content-box;
+	padding: 0;
+	padding-left: 0;
+	border:0;
+	background-color: #e0d2d2;
+}
 }
